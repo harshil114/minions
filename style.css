@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Josefin+Sans:wght@500;700&family=Poppins:wght@500;700&display=swap');
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    /* background-color: var(--bgcolor); */
+    margin:0px;
+    /* background-image: url(img/hero.jpg); */
+    /* background-repeat: no-repeat;
+    background-size: cover;  
+     */
+
+}
+:root{
+
+    --bgcolor:#f5e050;
+    --blue:#5065F5;
+}
+.nav{
+    font-family: 'Cinzel', serif;
+    background-color: var(--blue);
+    color: var(--bgcolor);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    font-size: 2.9rem;
+    text-align: center;
+}
+.input-box{
+    padding: 2.5rem;
+
+}
+#input{
+
+    margin:auto;
+    box-sizing: border-box;
+    display: block;
+    width: 35rem;
+    min-height: 20vh;
+    font-size: 1.2rem;
+    font-family: 'Josefin Sans', sans-serif;  
+}
+
+.hit-btn{    
+    text-align: center;
+}
+#btn{
+    font-family: 'Josefin Sans', sans-serif;   
+    padding: 1rem 3.2rem 1rem 3.2rem;
+    background-color: var(--blue);
+    color: var(--bgcolor);
+    font-size: larger;
+    border:none;   
+}
+#btn:hover{
+    background-color: var(--bgcolor);
+    color: var(--blue);
+}
+/* .heading{
+    font-size: 1.2rem;
+    text-align:start;
+} */
+.output-box{
+    padding: 2rem;
+    text-align: center;   
+}
+#output{    
+    width: 35rem;
+    min-height: 10vh;
+    font-size: 1.2rem;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+.footer{        
+    background-color: var(--blue);
+    position: fixed;
+    bottom: 0;
+    width: 100%;   
+    color: var(--bgcolor); 
+    font-size:x-large;
+    text-align: center;
+    padding-top: 0.7rem;
+}
+
+p{
+    display: block;
+    margin: auto;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    max-width: 60%;
+}
+
+
+ 
+
