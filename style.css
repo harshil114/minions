@@ -39,8 +39,11 @@ body{
     min-height: 20vh;
     font-size: 1.2rem;
     font-family: 'Josefin Sans', sans-serif;  
+    
 }
-
+textarea{
+    /* padding: 1rem; */
+}
 .hit-btn{    
     text-align: center;
 }
@@ -91,4 +94,3 @@ p{
 
 
  
-
